@@ -4,3 +4,4 @@ theme = "azar"
 title = "Negah"
 [params]
   description = "little fun projects."
+  logo = "/img/logo.png"
