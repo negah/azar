@@ -1,0 +1,6 @@
+baseURL = "https://negah365.ir"
+googleAnalytics = ""
+theme = "azar"
+title = "Negah"
+[params]
+  description = "little fun projects."
