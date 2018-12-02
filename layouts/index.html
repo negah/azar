@@ -28,6 +28,23 @@
       </div>
     </div>
   </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3">
+
+      </div>
+      <div class="col-xs-9">
+        <ul class="all-posts">
+        {{range .Site.RegularPages}}
+        <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+        {{end}}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
