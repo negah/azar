@@ -3,5 +3,10 @@ googleAnalytics = ""
 theme = "azar"
 title = "Negah"
 [params]
-  description = "little fun projects."
-  logo = "/img/logo.png"
+description = "little fun projects."
+logo = "/img/logo.png"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+author = "authors"
