@@ -1,10 +1,10 @@
-baseURL = "https://negah365.ir"
+baseURL = "https://negah365.ir/azar"
 googleAnalytics = ""
 theme = "azar"
-title = "Negah"
+title = "Azar"
 [params]
-description = "little fun projects."
-logo = "/img/logo.png"
+description = "fun theme."
+logo = "/img/logo-mini.png"
 
 [taxonomies]
 category = "categories"
