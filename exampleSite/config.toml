@@ -2,6 +2,7 @@ baseURL = "https://negah365.ir/azar"
 googleAnalytics = ""
 theme = "azar"
 title = "Azar"
+DefaultContentLanguage = "en"
 [params]
 description = "fun theme."
 logo = "/img/logo-mini.png"
@@ -10,3 +11,9 @@ logo = "/img/logo-mini.png"
 category = "categories"
 tag = "tags"
 author = "authors"
+
+[languages]
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1

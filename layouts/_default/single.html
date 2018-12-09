@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-xs-12">
         <h1>{{ .Title }}</h1>
-        <p>authors: <ul>{{range .Params.authors}} <li>{{.}}</li> {{ end}}</ul></p>
+        <p>{{ T "author" }}: <ul>{{range .Params.authors}} <li>{{.}}</li> {{ end}}</ul></p>
         {{ .Content }}
       </div>
     </div>
